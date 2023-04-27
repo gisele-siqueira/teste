@@ -1,0 +1,13 @@
+*.csv
+*.egg-info/
+*.pyc
+.coverage
+.eggs/
+.mypy_cache/
+.tox/
+.venv/
+__pycache__/
+dist/
+docs/_build/
+docs/json/
+htmlcov/

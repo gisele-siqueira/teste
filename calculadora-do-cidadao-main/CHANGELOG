@@ -1,0 +1,46 @@
+# Changelog
+
+**1.0.0** (Nov 30, 2022)
+  * Removes Selic adapter since there is a bug in the current implementation (once it is fixed we can bring it back)
+
+**0.5.4** (Nov 3, 2022)
+  * Fixes Selic adapter
+
+**0.5.3** (Jan 20, 2022)
+  * Fixes Rows installation issue
+
+**0.5.2** (Jan 27, 2021)
+  * Fixes installation issue (Rows was missing as a dependency)
+  * Documentation minor fixes
+
+**0.5.1** (Jan 26, 2021)
+  * Adds for DIEESE's basic shopping basket (cesta básica) price index
+  * Adds support for Python 3.9
+  * Adds possibility of downloading files using HTTP POST
+  * Adds possibility of post processing the body of a downloaded file
+
+**0.5.0** (Ago 12, 2020)
+  * Adds more flexibility to date inputs (parses strings and other usual formats)
+
+**0.4.2** (Jun 15, 2020)
+  * Fixes URL for FED's Consumer Price Index for All Urban Consumers: All Items
+
+**0.4.1** (Feb 22, 2020)
+  * Refactors FED's Consumer Price Index for All Urban Consumers: All Items
+
+**0.4.0** (Feb 22, 2020)
+  * Adds FED's Consumer Price Index for All Urban Consumers: All Items
+
+**0.3.1** (Jan 27, 2020)
+  * Allows adapters to read data from the export all CLI feature
+
+**0.3.0** (Jan 26, 2020)
+  * Adds command to export all data to CSV
+
+**0.2.0** (Jan 25, 2020)
+  * Adds import/export method
+  * Adds the possibility to work offline by loading an exported CSV
+
+**0.1.1** (Jan 25, 2020)
+  * Cleans up unused code
+  * Updates documentation
